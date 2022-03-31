@@ -14,7 +14,7 @@ body {
   flex-direction: column;
   align-content: center;
   min-height: 100vh;
-  background-color: rgb(240, 231, 216);
+  background-color: rgb(232, 246, 252);
 }
 nav {
   text-align: right;
@@ -61,9 +61,34 @@ h1 {
 h2 {
   text-align: center;
 }
-.intro {
+figure {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  min-height: 50vh;
+  text-align: center;
+  background-image: url("../images/energy.jpeg");
+  background-size: cover;
+  background-position: center;
+  margin: 0;
+}
+figure > div {
+  position: relative;
+  max-width: 75ch;
+  color: white;
   text-align: center;
 }
+
+figure::before {
+  content: "";
+  inset: 0;
+  position: absolute;
+  backdrop-filter: blur(1rem);
+}
+.intro {
+  padding-top: 1.5em;
+}
+
 .pages {
   display: flex;
   width: 100%;
