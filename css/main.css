@@ -61,7 +61,8 @@ h1 {
   text-align: center;
   font-size: 3em;
 }
-h2 {
+h2,
+h3 {
   text-align: center;
 }
 .home-cover {
@@ -109,6 +110,17 @@ figure::before {
   background-position: center;
   margin: 0;
 }
+.grid-cover {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  min-height: 50vh;
+  text-align: center;
+  background-image: url("../images/grid\ cover.jpeg");
+  background-size: cover;
+  background-position: center;
+  margin: 0;
+}
 
 .intro {
   margin: auto;
@@ -116,7 +128,7 @@ figure::before {
 }
 
 .pages {
-  max-width: 50rem;
+  max-width: 75rem;
   margin: 0 auto 1rem auto;
 }
 .card {
@@ -155,6 +167,24 @@ figure::before {
   margin-right: 5em;
   margin-top: 1.5em;
   margin-bottom: 1.5em;
+  align-content: center;
+}
+
+img {
+  max-width: 75vw;
+  margin: auto;
+}
+.image {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+}
+#caption {
+  text-align: center;
+  font-size: 0.85em;
+  margin-left: 2rem;
+  margin-right: 2rem;
 }
 
 .faq {
