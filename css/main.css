@@ -159,13 +159,21 @@ figure::before {
 
 /* video */
 .video {
-  align-content: center;
-  justify-content: center;
   margin: auto;
   margin-top: 1em;
   margin-bottom: 1.5em;
   max-width: 80rem;
-  text-align: center;
+  width: 100%;
+  display: block;
+}
+.frame {
+  margin: auto;
+  margin-top: 1em;
+  margin-bottom: 1.5em;
+  max-width: 80rem;
+  width: 100%;
+  display: block;
+  aspect-ratio: 16/9;
 }
 
 /* article */
@@ -239,7 +247,7 @@ footer a {
     flex-direction: column;
   }
   .video {
-    max-width: 25vw;
+    max-width: 75vw;
   }
   .article {
     margin-left: 1em;
