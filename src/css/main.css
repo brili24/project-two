@@ -16,6 +16,7 @@ body {
   min-height: 100vh;
   background-color: rgb(232, 246, 252);
 }
+
 nav {
   text-align: right;
   width: 100%;
@@ -33,15 +34,15 @@ li {
 }
 #logo {
   float: left;
-  overflow: hidden;
-  width: 25vh;
+  width: 12rem;
   padding: 0px;
+  margin: 0px;
 }
 li a {
   color: white;
   text-decoration: none;
   text-align: center;
-  font-size: 1.25em;
+  font-size: 1.5em;
   padding-left: 1em;
   padding-right: 1em;
   padding-top: 0.25em;
@@ -51,6 +52,7 @@ li a {
 li a:hover {
   color: tan;
 }
+
 a {
   color: navy;
 }
@@ -66,7 +68,7 @@ h2 {
   position: relative;
   display: flex;
   justify-content: center;
-  min-height: 60vh;
+  min-height: 70vh;
   text-align: center;
   background-image: url("../images/energy.jpeg");
   background-size: cover;
@@ -89,9 +91,20 @@ figure::before {
   position: relative;
   display: flex;
   justify-content: center;
-  min-height: 60vh;
+  min-height: 50vh;
   text-align: center;
   background-image: url("../images/wind\ cover.jpeg");
+  background-size: cover;
+  background-position: center;
+  margin: 0;
+}
+.coal-cover {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  min-height: 50vh;
+  text-align: center;
+  background-image: url("../images/coal\ cover.jpeg");
   background-size: cover;
   background-position: center;
   margin: 0;
@@ -131,7 +144,7 @@ figure::before {
   align-content: center;
   justify-content: center;
   margin: auto;
-  margin-top: 1.5em;
+  margin-top: 1em;
   margin-bottom: 1.5em;
   max-width: 80rem;
   text-align: center;
@@ -171,7 +184,6 @@ figure::before {
 footer {
   text-align: center;
   position: absolute;
-  margin-top: 5em;
   bottom: 0;
   background-color: #003046;
   width: 100%;
@@ -195,6 +207,38 @@ footer a {
     margin-right: 1em;
     margin-top: 1em;
     margin-bottom: 1.5em;
+  }
+  .nav {
+    font-size: 0.7em;
+    display: flex;
+    flex-direction: row;
+    max-width: 100vw;
+  }
+  ul {
+    list-style-type: none;
+    background-color: #003046;
+    overflow: hidden;
+    margin: 0em;
+  }
+  li {
+    display: inline;
+  }
+  #logo {
+    float: left;
+    width: 32vw;
+    padding: 0px;
+    margin: 0px;
+  }
+  li a {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    font-size: 1.5em;
+    padding-left: 0em;
+    padding-right: 0.5em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    border-radius: 10px;
   }
 }
 
