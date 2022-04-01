@@ -14,6 +14,7 @@ body {
   flex-direction: column;
   align-content: center;
   background-color: rgb(232, 246, 252);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 /* nav bar */
@@ -60,7 +61,7 @@ a {
 
 h1 {
   text-align: center;
-  font-size: 3em;
+  font-size: 2.6em;
 }
 h2 {
   text-align: center;
@@ -74,7 +75,7 @@ h2 {
   position: relative;
   display: flex;
   justify-content: center;
-  min-height: 70vh;
+  min-height: 75vh;
   text-align: center;
   background-image: url("../images/energy.jpeg");
   background-size: cover;
@@ -97,7 +98,7 @@ figure::before {
   position: relative;
   display: flex;
   justify-content: center;
-  min-height: 50vh;
+  min-height: 60vh;
   text-align: center;
   background-image: url("../images/wind\ cover.jpeg");
   background-size: cover;
@@ -108,7 +109,7 @@ figure::before {
   position: relative;
   display: flex;
   justify-content: center;
-  min-height: 50vh;
+  min-height: 60vh;
   text-align: center;
   background-image: url("../images/coal\ cover.jpeg");
   background-size: cover;
@@ -119,7 +120,7 @@ figure::before {
   position: relative;
   display: flex;
   justify-content: center;
-  min-height: 50vh;
+  min-height: 60vh;
   text-align: center;
   background-image: url("../images/grid\ cover.jpeg");
   background-size: cover;
@@ -128,7 +129,7 @@ figure::before {
 }
 .intro {
   margin: auto;
-  max-width: 50rem;
+  max-width: 75vw;
 }
 
 /* cards */
@@ -162,9 +163,10 @@ figure::before {
   margin: auto;
   margin-top: 1em;
   margin-bottom: 1.5em;
-  max-width: 80rem;
+  max-width: 60rem;
   width: 100%;
   display: block;
+  text-align: center;
 }
 .frame {
   margin: auto;
@@ -180,13 +182,13 @@ figure::before {
 .article {
   display: flex;
   flex-direction: column;
-  margin-left: 7em;
-  margin-right: 7em;
+  margin-left: 8em;
+  margin-right: 8em;
   margin-top: 1.5em;
   margin-bottom: 3em;
 }
 img {
-  max-width: 75vw;
+  max-width: 60vw;
   margin: auto;
 }
 .image {
@@ -198,8 +200,8 @@ img {
 #caption {
   text-align: center;
   font-size: 0.85em;
-  margin-left: 2rem;
-  margin-right: 2rem;
+  margin-left: 4rem;
+  margin-right: 4rem;
 }
 
 /* faq */
@@ -212,7 +214,6 @@ img {
   padding-bottom: 0.5em;
   margin-top: 0.5em;
   margin-bottom: 0.5em;
-  max-height: 50vh;
 }
 .question a:hover {
   color: beige;
@@ -249,7 +250,18 @@ footer a {
   .video {
     max-width: 75vw;
   }
+  img {
+    max-width: 75vw;
+  }
+  #caption {
+    text-align: center;
+    font-size: 0.85em;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+  }
   .article {
+    display: flex;
+    flex-direction: column;
     margin-left: 1em;
     margin-right: 1em;
     margin-top: 1em;
