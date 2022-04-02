@@ -14,7 +14,8 @@ body {
   flex-direction: column;
   align-content: center;
   background-color: rgb(232, 246, 252);
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Outfit", sans-serif;
+  font-family: "Raleway", sans-serif;
 }
 
 /* nav bar */
